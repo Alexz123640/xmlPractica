@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="vista.xsl"?>
+
+
+<Factura>
+	<cabeza>
+		<serie >0002</serie>
+		<numero >1213</numero>
+		<fecha >14/04/2023</fecha>
+		<RUC>2077127209</RUC>
+		<Cliente>
+			<Nombre>ESTUDIA FERM SAC</Nombre>
+			<Direccion>av. miraflores 405</Direccion>
+		</Cliente>
+	</cabeza>
+	<Items>
+		<Item>
+			<Nombre>Cuarderno Loro</Nombre>
+			<Cantidad>4</Cantidad>
+			<Precio tipo="soles">15</Precio>
+			<Total tipo="soles">60</Total>
+		</Item>
+		<Item>
+			<Nombre>Lapiz la PIZ</Nombre>
+			<Cantidad>2</Cantidad>
+			<Precio tipo="soles">5</Precio>
+			<Total tipo="soles">10</Total>
+		</Item>
+
+	</Items>
+	<IGV>12.6</IGV>
+	<subTotal>57.4</subTotal>
+	<TotalTotal tipo="soles">70</TotalTotal>
+</Factura>
